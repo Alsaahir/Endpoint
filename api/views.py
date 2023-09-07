@@ -10,7 +10,7 @@ def api_endpoint(request):
 
     current_day = datetime.now().strftime('%A')
 
-    github_file_url = 'https://github.com/Alsaahir/Endpoint/api/views.py'
+    github_file_url = 'https://github.com/Alsaahir/Endpoint/blob/main/api/views.py'
     github_repo_url = 'https://github.com/Alsaahir/Endpoint.git'
 
     response_data = {
